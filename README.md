@@ -12,7 +12,9 @@ To compile on Linux run: "clang++ ray.cpp lodepng.cpp pugixml.cpp -o ray"
 
 To run: "./ray <filename.xml> [flag]"
 	
-flags are: "-blur"  for motion blur
+flags are: 
+			
+		   "-blur"  for motion blur
 
 		   "-anim"  for gif animation
 			   
@@ -31,4 +33,9 @@ The example scenes are formatted as described here: https://teaching.vda.univie.
 <img src="https://github.com/Cyronio/Raytracer/blob/main/ExamplePictures/example8_super.png">
 
 <img src="https://github.com/Cyronio/Raytracer/blob/main/ExamplePictures/example6_gif.gif">
+
+## External Libraries
+
+- PugiXML: https://github.com/zeux/pugixml?tab=readme-ov-file
+- LodePNG: https://github.com/lvandeve/lodepng 
 
