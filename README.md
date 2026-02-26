@@ -13,30 +13,22 @@ To compile on Linux run: "clang++ ray.cpp lodepng.cpp pugixml.cpp -o ray"
 To run: "./ray <filename.xml> [flag]"
 	
 flags are: "-blur"  for motion blur
-		       "-anim"  for gif animation
+
+		   "-anim"  for gif animation
+			   
            "-super" for super-sampling	
+		   
 -> for example: "./ray example5.xml -super"
 
-## Example Scenes
+## XML Formatting
 
 The example scenes are formatted as described here: https://teaching.vda.univie.ac.at/graphics/24s/Labs/Lab3/lab2_file_specification.html 
 
-<<<<<<< HEAD
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Cyronio&show_icons=true&theme=onedark&locale=en" alt="Cyronio" /></p>
+## Example Scenes
 
-To compile on Linux type: "clang++ ray.cpp lodepng.cpp pugixml.cpp -o ray"
+<img src="https://github.com/Cyronio/Raytracer/blob/main/ExamplePictures/example7_super.png">
 
-To run type: "./ray <filename.xml> [flag]
-	
--> flags are: "-blur"  for motion blur
-		          "-anim"  for gif animation
-              "-super" for super-sampling	
+<img src="https://github.com/Cyronio/Raytracer/blob/main/ExamplePictures/example8_super.png">
 
-	for example: "./ray example5.xml -super"
+<img src="https://github.com/Cyronio/Raytracer/blob/main/ExamplePictures/example6_gif.gif">
 
-look up the provided example.xml files for the layout necessary to be rendered by the Raytracer (documentation: https://teaching.vda.univie.ac.at/graphics/24s/Labs/Lab3/lab2_file_specification.html )
-
-
-
-=======
->>>>>>> cb18dfd72bab496adfdceca7f04808db2badadb5
